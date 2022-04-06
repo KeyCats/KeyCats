@@ -1,7 +1,7 @@
 {
-  "name": "ruby",
+  "name": "keycats",
   "version": "1.0.0",
-  "description": "Ruby, a private moderation bot!",
+  "description": "keycats, a private moderation bot!",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --rs --cls src/index.ts",

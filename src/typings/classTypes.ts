@@ -1,7 +1,7 @@
 /**
  * Developers - KeyCats ( JNSP, Saige, Kanna )
- * Repo: https://github.com/KeyCats/Ruby
- * Github: https://github.com/KeyCats/Ruby
+ * Repo: https://github.com/KeyCats/KeyCats
+* Github: https://github.com/KeyCats/
  * 2022
  */
 
@@ -12,7 +12,7 @@ import {
   GuildMember,
   PermissionResolvable,
 } from "discord.js";
-import Ruby from "../structures/Client";
+import KeyCats from "../structures/Client";
 
 //? Commands
 
@@ -21,7 +21,7 @@ export interface Extendedinteraction extends CommandInteraction {
 }
 
 export interface CommandRunInterface {
-  client: Ruby;
+  client: KeyCats;
   ctx: Extendedinteraction;
   args: CommandInteractionOptionResolver;
 }

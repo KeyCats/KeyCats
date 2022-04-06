@@ -1,14 +1,14 @@
 /**
-* Developers - KeyCats ( JNSP, Saige, Kanna )
-* Repo: https://github.com/KeyCats/Ruby
-* Github: https://github.com/KeyCats/Ruby
-* 2022
-*/
+ * Developers - KeyCats ( JNSP, Saige, Kanna )
+ * Repo: https://github.com/KeyCats/KeyCats
+ * Github: https://github.com/KeyCats/
+ * 2022
+ */
 
 import { CommandTypes } from "../typings/classTypes";
 
 export class Command {
-    constructor(options: CommandTypes) { 
-        Object.assign(this, options)
-    }
+  constructor(options: CommandTypes) {
+    Object.assign(this, options);
+  }
 }

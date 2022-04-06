@@ -1,7 +1,7 @@
 /**
  * Developers - KeyCats ( JNSP, Saige, Kanna )
- * Repo: https://github.com/KeyCats/Ruby
- * Github: https://github.com/KeyCats/Ruby
+* Repo: https://github.com/KeyCats/KeyCats
+* Github: https://github.com/KeyCats/
  * 2022
  */
 
@@ -22,7 +22,7 @@ import connect from "../data/connect";
 import { Event } from "./Event";
 const globPromise = promisify(glob);
 
-export default class Ruby extends Client {
+export default class KeyCats extends Client {
   commands: Collection<string, CommandTypes> = new Collection();
   config: Config = {};
   logger = Logger;
